@@ -40,10 +40,16 @@ WINDOWS_USER="YourWindowsUsername"
 
 Replace `YourWindowsUsername` with your actual Windows username.
 
-Save and exit, then give execute permission:
+Save and exit, then give execute permission locally in WSL:
 
 ```bash
 chmod +x connect.sh
+```
+
+If your script is in home directory, you can also run:
+
+```bash
+chmod +x ~/connect.sh
 ```
 
 5. Run the script:
